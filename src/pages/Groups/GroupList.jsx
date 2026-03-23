@@ -62,7 +62,7 @@ const GroupList = () => {
       }
     }
     fetchGroups()
-  }, [showError])
+  }, [])
 
   if (loading) {
     return (

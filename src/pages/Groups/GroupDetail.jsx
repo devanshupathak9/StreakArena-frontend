@@ -93,7 +93,7 @@ const GroupDetail = () => {
     } finally {
       setLoading(false)
     }
-  }, [id, showError])
+  }, [id])
 
   useEffect(() => {
     fetchGroup()
