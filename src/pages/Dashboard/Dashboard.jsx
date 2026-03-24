@@ -105,7 +105,7 @@ const Dashboard = () => {
     } finally {
       setLoading(false)
     }
-  }, [showError])
+  }, [])
 
   useEffect(() => {
     fetchDashboard()

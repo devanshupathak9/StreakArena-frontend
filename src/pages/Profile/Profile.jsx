@@ -57,7 +57,7 @@ const Profile = () => {
       }
     }
     fetchData()
-  }, [showError])
+  }, [])
 
   if (loading) {
     return (
